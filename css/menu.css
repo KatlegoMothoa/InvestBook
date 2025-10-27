@@ -72,9 +72,15 @@ body{
     display: flex;
     align-items: center;
     gap: 15px;
-    color: #ddd;
+    color: #777;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.menu-links li a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
 }
 
 .menu-links li:hover{
