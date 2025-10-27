@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InvestBook | Login</title>
-    <link rel="stylesheet" href="css/login.css">
+    <title>InvestBook | Register</title>
+    <link rel="stylesheet" href="css/register.css">
 </head>
 <body>
-
     <button id="menu-btn" class="side-menu-btn">☰</button>
     <aside class="left-sidebar" id="left-sidebar">
         <div class="close">
@@ -18,34 +17,37 @@
             <li><a href="discover.html">Discover Projects</a></li>
             <li><a href="investors.html">Browse Investors</a></li>
             <li><a href="investments.html">Investments</a></li>
-            <li><a href="messages.html"></a></li>
+            <li><a href="messages.html">Messages</a></li>
             <li class="logout"><i class="sign-out">Sign Out</i></li>
         </ul>
     </aside>
 
-    <!-- Brand Logo (click to go home) -->
-    <a href="index.html" class="brand">
+    <div class="brand">
         <div class="logo">iB</div>
         <h2>InvestBook</h2>
-    </a>
-
-    <!-- Login Form -->
+    </div>
     <div class="auth-container">
         <div class="auth-card">
-            <h1>InvestBook</h1>
-            <h2>Login to your account</h2>
+            <h1 class="logo">InvestBook</h1>
+            <h2>Create your profile</h2>
 
-            <form action="#" method="post" class="authForm">
+            <form action="#" method="post" class="auth-form">
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" required>
+
                 <label for="email">Email</label>
                 <input type="email" id="email" name="email" required>
 
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required>
 
-                <button type="submit" class="btnPrimary">Login</button>
+                <label for="bio">Short Bio</label>
+                <textarea id="bio" name="bio" placeholder="Tell investors about yourself..."></textarea>
 
-                <p class="switch-link">
-                    Don’t have an account? <a href="register.html">Create one</a>
+                <button type="submit" class="btn-primary">Create Account</button>
+
+                <p class="switchLink">
+                    Already have an account? <a href="login.html">Login</a>
                 </p>
             </form>
         </div>
