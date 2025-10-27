@@ -8,12 +8,20 @@
 </head>
 <body>
     <div class="container">
-        <div class="nav-links">
-            <a href="home.html" class="nav-link">Home</a>
-            <a href="discover.html" class="nav-link">Discover</a>
-            <a href="profile.html" class="nav-link">Profile</a>
-            <a href="investors.html" class="nav-link active">Browse Investors</a>
-        </div>
+        <!--Navigation bar-->
+        <header class="navbar">
+            <a href="home.html" class="back-arrow">←</a>
+            <h1>Browse Investors</h1>
+            <a href="messages.html" class="messages-icon">✉</a>
+        </header>
+        <p class="subtitle">Active Investors</p>
+
+        <nav class="tabs">
+            <button class="active">Most Active</button>
+            <button>Top Tier</button>
+            <button>Sector Focus</button>
+            <button>New</button>
+        </nav>
 
         <div class="investors-section">
 
@@ -97,7 +105,28 @@
                             <span class="value">110+</span>
                         </div>
                     </div>
-                    <div class="trending-score">
+                                        <div class="trending-score">
+                        <p>Trending Score: 8.1/10</p>
+                        <div class="score-bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="discover.html">Discover</a>
+            <a href="investors.html" class="active">Browse_Investors</a>
+            <a href="#">Investments</a>
+            <a href="#">Messages</a>
+            <a href="menu.html">Menu</a>
+        </nav>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
                         <p>Trending Score: 8.1/10</p>
                         <div class="score-bar"></div>
                     </div>
