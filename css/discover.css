@@ -1,5 +1,5 @@
 
-/* Base styles */
+
 :root {
     --bg: #121212;
     --surface: #1b1b1b;
@@ -23,7 +23,6 @@ body {
     padding: 0;
 }
 
-/* Navigation bar */
 .navbar {
     display: flex;
     align-items: center;
